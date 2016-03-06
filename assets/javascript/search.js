@@ -1,4 +1,8 @@
-var subjects = ['Super Mario', 'Megaman', 'Yoshi', 'Pikachu', 'Charmander', 'Master Chief', 'Kirby'];
+var subjects = [
+'Super Mario', 'Megaman', 'Yoshi', 'Pikachu', 
+'Charmander', 'Master Chief', 'Kirby', 'Superman',
+'Batman', 'Aquaman'
+];
 var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + subjects + "&api_key=dc6zaTOxFJmzC";
 
 $(document).ready(function(){
@@ -6,6 +10,7 @@ $(document).ready(function(){
   function newButton(subject){
     var a = $('<button>')
     a.addClass('subject');
+    a.addClass('btn btn-danger');
     a.attr('data-name', subject);
     a.text(subject);
     $('#buttonsView').append(a);
@@ -36,11 +41,13 @@ $(document).ready(function(){
 
           var gifImage = $('<img>');
           gifImage.attr('src', results[i].images.fixed_height.url);
+          gifImage.attr('width', '100%');
+          gifImage.attr('height', 'auto');
 
           gifDiv.append(p)
           gifDiv.append(gifImage)
 
-          $('#gifsAppearHere').prepend(gifDiv);
+          $('#gifSection').prepend(gifDiv);
         }
     });
   };

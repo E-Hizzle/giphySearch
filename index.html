@@ -3,27 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <title>Image Search, Powered by GIPHY</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="assets/javascript/search.js"></script>
 </head>
 <body>
 
-<div id="buttonsView">
-  
+<h1>Welcome to .gif Search! Powered by GIPHY.</h1>
+
+<!-- Text form -->
+  <form id="subject-form">
+    <label for="subject-input">Search for .gif!</label>
+    <input type="text" id="subject-input">
+    <input id="addSubject" type="submit" value="Submit">
+  </form>
+
+<!-- Buttons -->
+<div class="row">
+<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+<!-- Empty Space -->
+</div>
+ <div class="buttonBox"> 
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">.gif Buttons</h3>
+      </div>
+    <div class="panel-body">
+        <div id="buttonsView"><!--Buttons shoot here--></div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<!--Empty Space-->  
+</div>
 </div>
 
-<form id="subject-form">
-  <label for="subject-input">Search for .gif!</label>
-  <input type="text" id="subject-input"><br>
-  <input id="addSubject" type="submit" value="Submit">
-</form>
-
-<div id="gifsAppearHere">
-  
+<!-- Gif section -->
+<div class="row">
+<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+<!-- Empty Space -->
+</div>
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel danger</h3>
+  </div>
+  <div class="panel-body">
+      <div class="gifBox">
+        <div id="gifSection"><!--gif's shoot here--></div>
+      </div>  
+  </div>
+</div>
+</div>
+<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+<!-- Empty Space -->
+</div>
 </div>
 
-  
 </body>
 </html>
