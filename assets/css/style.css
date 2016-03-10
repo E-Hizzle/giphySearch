@@ -5,6 +5,7 @@ button {
 
 form {
   margin: 10px;
+  text-align: center;
 }
 
 h1 {
@@ -20,6 +21,7 @@ input {
 .buttonBox {
   float: middle;
 }
+
 .gifBox {
   width: 100%;
   float: right;
@@ -33,10 +35,6 @@ input {
   border-width: 5px;
   font-size: 20px;
   font-family: 'Playfair Display SC', serif;
-}
-
-form {
-  text-align: center;
 }
 
 #gifSection {

@@ -33,7 +33,7 @@ $(document).ready(function(){
         var results = response.data;
 
         for (var i = 0; i < results.length; i++){
-          var gifDiv = $('<div class="item">')
+          var gifDiv = $('<div class="item">');
 
           var rating = results[i].rating;
 
@@ -60,6 +60,7 @@ $(document).ready(function(){
     newButton(subject);
     return false;
   });
+  
   $(document).on('click', '.subject', displayGifThings);
 });
 
