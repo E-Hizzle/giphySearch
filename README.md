@@ -6,9 +6,9 @@ http://giphy-search.herokuapp.com
 
 <p align="center">
 <span>
-<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/Screenshots/1.png" width="32%" height="auto"/>
-<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/Screenshots/2.png" width="32%" height="auto"/>
-<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/Screenshots/2.png" width="32%" height="auto"/>
+<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/1.png" width="32%" height="auto"/>
+<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/2.png" width="32%" height="auto"/>
+<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/3.png" width="32%" height="auto"/>
 </span>
 </p>
 
