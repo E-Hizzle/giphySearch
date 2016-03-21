@@ -6,10 +6,10 @@ http://giphy-search.herokuapp.com
 
 <p align="center">
 <span>
-<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/1.png" width="50%" height="auto"/>
-<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/2.png" width="50%" height="auto"/>
+<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/1.png" width="49%" height="auto"/>
+<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/2.png" width="49%" height="auto"/>
 </span>
-<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/3.png" width="100%" height="auto"/>
+<img src="https://raw.githubusercontent.com/eric-h0/giphySearch/screenshots/screenshots/3.png" width="98%" height="auto"/>
 </p>
 
 #Description:
